@@ -88,6 +88,7 @@ const getFeaturing = (song) => {
     }
 }
 
+console.log("mdrr");
 const listSongs = `
     <ul>
         ${songs.map(song => `<li>${song.name} - ${song.artist}
